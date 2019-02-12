@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: yiliao/ready-demo:d10
+    ports:
+    - "80:80"
+
+  pinger:
+    image: yiliao/php-pinger
+
